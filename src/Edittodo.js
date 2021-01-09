@@ -49,6 +49,7 @@ export default class Edittodo extends Component {
         this.setState({
             proj_state: e.target.value
         });
+        
     }
 
     handleClose = () => {

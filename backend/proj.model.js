@@ -10,6 +10,7 @@ const todoSchema = new mongoose.Schema({
     proj_state:{
       type:String
   }  
+  
 })
 
 const Naveen = mongoose.model("naveen",todoSchema);

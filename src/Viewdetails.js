@@ -93,6 +93,7 @@ viewprojdetails() {
               </TableRow>
             </TableHead>
             <TableBody>
+              
               {this.viewprojdetails()}
             </TableBody>
           </Table>

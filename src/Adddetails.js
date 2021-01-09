@@ -62,6 +62,7 @@ alert("The details are about to be updated in DB")
   axios.post('http://localhost:4018/mydb/add',projstatus)
   .then(res => console.log(res.data))
   
+  
   this.setState({
     matchnumber: '',
     favteam: '',

@@ -46,6 +46,7 @@ export default function Appbkp() {
                 <div>
                 <Route path='/add' component={Adddetails} />
                 <Route path='/view' component={Viewdetails} />
+                
                 <Route path='/edit/:id' component={Edittodo} />
                 <Route path='/delete/:id' component={Delconfirm} />
                 </div>

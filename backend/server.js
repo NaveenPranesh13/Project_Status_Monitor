@@ -64,6 +64,7 @@ mernproj.route('/update/:id').post(function(req, res) {
                 res.status(400).send("Edit details Update failed");
             });
     });
+    
 });
 
 

@@ -69,6 +69,7 @@ export default function Delconfirm(props) {
                         On clicking 'Yes' you are agreeing to delete the project detail permanently. 
                         Are you sure you want to delete?
                 </DialogContentText>
+                
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={handleClose1} color="primary">
