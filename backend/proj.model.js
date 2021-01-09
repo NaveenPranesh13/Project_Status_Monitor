@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 const todoSchema = new mongoose.Schema({
-    project_name:{
+    proj_name:{
         type:String
     },
-    project_description:{
+    proj_desc:{
         type:String
     },
   
-  proj_state:{
+    proj_state:{
       type:String
   }  
 })
